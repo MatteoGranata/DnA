@@ -1,13 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .pagina {
   display: flex;
   flex-direction: column;
 }
-body{
+
+body {
   font-size: 60px;
   color: white;
   background-image: url(images/sfondo-dna.svg);
@@ -17,50 +19,59 @@ body{
   -webkit-background-size: cover;
   background-size: cover;
 }
+
 h1,
 h3,
 h4,
 h5,
 .contenitore-bodycopy,
 body {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
 .contenitore-logo {
   display: flex;
   padding: 50px 200px;
 }
+
 .immagine {
   display: flex;
   padding: 10px 0;
 }
+
 .logo {
   display: flex;
   width: 130px;
   height: auto;
-  }
-  .contenitore-testo{
+}
+
+.contenitore-testo {
   display: flex;
   padding: 40px 200px;
   align-items: center;
   justify-content: flex-start;
 }
-.testo{
+
+.testo {
   display: flex;
   flex-direction: column;
   align-content: center;
 }
+
 .titolo {
   display: flex;
   align-items: flex-end;
   align-content: flex-end;
   padding: -10px 10px;
 }
+
 .corpo {
   display: flex;
   font-size: 40px;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .contenitore-riviste {
   display: flex;
   position: absolute;
@@ -68,9 +79,11 @@ body {
   left: 0;
   margin: 100px 10px;
 }
+
 .riviste {
   display: flex;
 }
+
 .rivista-1,
 .rivista-2,
 .rivista-3,
@@ -80,62 +93,75 @@ body {
 .rivista-7 {
   display: flex;
   height: 400px;
-  width: auto; 
+  width: auto;
   margin: 0 -100px;
   position: absolute;
 }
-.rivista-1{
+
+.rivista-1 {
   top: 120px;
   left: 900px;
 }
+
 .rivista-2 {
   top: 150px;
   left: 990px;
 }
-.rivista-3{  
+
+.rivista-3 {
   top: 200px;
   left: 990px;
 }
+
 .rivista-4 {
   top: 170px;
   left: 870px;
 }
+
 .rivista-5 {
   top: 250px;
   left: 990px;
 }
+
 .rivista-6 {
   top: 220px;
   left: 890px;
 }
-.rivista-7{
+
+.rivista-7 {
   top: 230px;
   left: 950px;
 }
+
 .contenitore-freccia {
   display: flex;
   justify-content: center;
   margin: 130px 100px;
 }
+
 .freccia {
   display: flex;
   margin: auto 0;
 }
+
 .freccia-inbasso {
   display: flex;
   height: 30px;
 }
-.contenitore-bodycopy{
+
+.contenitore-bodycopy {
   display: flex;
   font-size: 25px;
   align-content: stretch;
 }
+
 .bodycopy {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
   align-content: space-around;
 }
+
 .obbiettivo,
 .mission,
 .scuole,
@@ -146,28 +172,34 @@ body {
   margin: 20px 100px;
   flex-direction: column;
 }
+
 .obbiettivo,
 .scuole,
 .come-funziona {
   font-size: 40px;
 }
+
 .scuole,
 .scuole-spiegazione {
   text-align: end;
 }
+
 .mission,
 .scuole-spiegazione,
-.funziona{
+.funziona {
   margin-top: 50px;
 }
+
 .box-scuola,
 .box-come-funziona {
   margin-top: 200px;
 }
+
 .contenitore-pulsante {
   display: flex;
   justify-content: center;
 }
+
 .pulsante {
   padding: 10px 20px;
   display: flex;
@@ -176,15 +208,18 @@ body {
   margin: 80px auto;
   color: white;
 }
+
 .box-contatti {
   display: flex;
   flex-direction: column;
 }
+
 .contatti {
   display: flex;
   margin: 20px 100px;
   justify-content: space-between;
 }
+
 .instagram,
 .facebook,
 .twitter {
@@ -192,45 +227,55 @@ body {
   font-size: 15px;
   height: 20px;
 }
+
 a:link {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
 a:visited {
   color: rgb(255, 255, 255);
 }
+
 a:hover {
   color: rgb(108, 193, 230);
   text-decoration: underline;
 }
+
 a:active {
   color: rgb(149, 8, 184);
 }
-@media only screen and (max-width: 400px){
+
+@media only screen and (max-width: 400px) {
   .page {
     width: 200px;
     margin: 0 auto;
     font-size: 10px;
   }
+
   .mission,
   .scuole-spiegazione,
-  .funziona{
+  .funziona {
     margin-top: 30px;
     font-size: 19px;
   }
+
   .obbiettivo,
   .scuole,
   .come-funziona {
     font-size: 30px;
   }
+
   .box-scuola,
   .box-come-funziona {
     margin-top: 80px;
   }
-  .logo{
+
+  .logo {
     width: 80px;
     height: auto;
   }
+
   .rivista-1,
   .rivista-2,
   .rivista-3,
@@ -244,17 +289,20 @@ a:active {
     margin: 90px -620px;
     position: absolute;
   }
+
   .contenitore-testo,
-  .contenitore-logo{
+  .contenitore-logo {
     font-size: 30px;
     display: flex;
     padding: 40px 50px;
     align-items: center;
     justify-content: flex-start;
   }
-  .pulsante{
+
+  .pulsante {
     margin: 10px auto;
   }
+
   .contenitore-freccia {
     display: flex;
     justify-content: center;
@@ -262,30 +310,35 @@ a:active {
     padding: 0 130px;
   }
 }
+
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .page {
     width: 200px;
     margin: 0 auto;
   }
+
   .box-scuola,
   .box-come-funziona {
     margin-top: 80px;
   }
+
   .mission,
   .scuole-spiegazione,
-  .funziona{
+  .funziona {
     margin-top: 30px;
     font-size: 22px;
   }
+
   .contenitore-testo,
-  .contenitore-logo{
+  .contenitore-logo {
     font-size: 50px;
     display: flex;
     padding: 40px 100px;
     align-items: center;
     justify-content: flex-start;
   }
+
   .rivista-1,
   .rivista-2,
   .rivista-3,
@@ -299,10 +352,12 @@ a:active {
     margin: 80px -400px;
     position: absolute;
   }
-  .pulsante{
+
+  .pulsante {
     margin: 50px auto;
   }
 }
+
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   .page {
